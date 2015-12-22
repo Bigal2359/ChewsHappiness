@@ -131,12 +131,6 @@ header h1 {
 	font-size: 20px;
 	line-height:1.4em;
 }
-.sign-up .offer {
-	font-family: 'bpreplaybold';
-}
-.sign-up strong {
-	color:#f26725;
-}
 input[type="text"], input[type="email"] {
 	background:#ffffff;
 	color:#aaaaaa;
@@ -217,7 +211,6 @@ footer a {
 	padding:15px;
 	letter-spacing: 0.1em;
 }
-
 .banner {
 	position: relative;
 	width: 100%;
@@ -288,7 +281,6 @@ footer a {
 .banner strong {
 	font-family: 'bpreplaybold';
 }
-
 .banner .btn, .banner .dot {
 	-webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
 	-moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
@@ -296,7 +288,6 @@ footer a {
 	-o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
 	filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
 }
-
 .banner .dots {
 	position: absolute;
 	left: 0;
@@ -325,7 +316,6 @@ footer a {
 	background: #fff;
 	opacity: 1;
 }
-
 .banner .arrows {
 	position: absolute;
 	top: 50%;
@@ -398,7 +388,6 @@ footer a {
 	position:absolute;
 	top:50%;
 }
-
 @media screen and (min-width: 768px) {
 	header {
 		padding: 50px 15px;
