@@ -78,18 +78,43 @@ header h1 {
 #main {
 	background:#ffffff;
 }
-.sign-up {
-	text-align:center;
-	color:#888888;
-	padding:53px 25px;
+.details {
+	text-align: center;
+	color: #888888;
+	margin: 0 auto;
+	max-width: 950px;
+	padding: 53px 25px;
+	width: 100%;
 }
-.sign-up h1 {
+.details h1 {
 	color:#f26725;
-	margin-bottom:20px;
+	font-family: 'bpreplaybold';
 	font-size:28px;
 	letter-spacing: 0.04em;
-	font-family: 'bpreplaybold';
 	line-height:1.4em;
+	margin-bottom:20px;
+}
+
+.details .details-block {
+    float: left;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+	.details .details-block {
+		margin: 0 1.66666667% 30px;
+	    width: 30%;
+	}
+}
+.details p {
+	margin-bottom:25px;
+	font-size: 20px;
+	line-height:1.4em;
+}
+.sign-up {
+	clear: both;
+	color:#888888;
+	padding:53px 25px;
+	text-align:center;
 }
 .sign-up p {
 	margin-bottom:25px;
