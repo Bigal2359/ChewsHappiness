@@ -81,6 +81,9 @@ header img {
 header h1 {
 	line-height:1.2em;
 }
+.nowrap {
+	white-space: nowrap;
+}
 #main {
 	background:#ffffff;
 }
