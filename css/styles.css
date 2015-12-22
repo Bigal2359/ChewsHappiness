@@ -56,21 +56,27 @@ body {
 }
 header {
 	background: url(../img/bkgd_pattern.gif) repeat;
-	padding: 50px 15px;
-	margin-top: 200px;
-	color:#ffffff;
-	text-align:center;
-	text-transform:uppercase;
+	color: #ffffff;
 	font-family: 'bowlby_oneregular';
-	font-size:20px;
-	letter-spacing:0.1em;
-
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	margin-top: 114px;
+	padding: 35px 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+sup {
+	font-size: 60%;
+    line-height: 0;
+    position: static;
+    vertical-align: super;
 }
 header img {
-	top: 35px;
 	left: 50%;
+	margin-left: -79px;
 	position: absolute;
-	margin-left: -127px;
+	top: 12px;
+	width: 159px;
 }
 header h1 {
 	line-height:1.2em;
