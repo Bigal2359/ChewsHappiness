@@ -85,11 +85,11 @@ header h1 {
 	background:#ffffff;
 }
 .details {
-	text-align: center;
 	color: #888888;
 	margin: 0 auto;
 	max-width: 950px;
-	padding: 53px 25px;
+	padding: 25px;
+	text-align: center;
 	width: 100%;
 }
 .details h1 {
