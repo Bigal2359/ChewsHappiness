@@ -100,26 +100,27 @@ header h1 {
 	line-height:1.4em;
 	margin-bottom:20px;
 }
-
 .details .details-block {
-    float: left;
     margin-bottom: 30px;
 }
-@media screen and (min-width: 768px) {
-	.details .details-block {
-		margin: 0 1.66666667% 30px;
-	    width: 30%;
-	}
+.details h2 {
+	color:#f26725;
+	font-family: 'bpreplaybold';
+	font-size: 20px;
 }
 .details p {
-	margin-bottom:25px;
 	font-size: 20px;
 	line-height:1.4em;
+	margin: 0 auto 25px;
+	max-width: 300px;
+}
+.details a {
+	color: #000;
 }
 .sign-up {
 	clear: both;
 	color:#888888;
-	padding:53px 25px;
+	padding: 25px;
 	text-align:center;
 }
 .sign-up p {
@@ -188,19 +189,19 @@ footer a {
 	background:url(../img/social_btns.png) no-repeat 0 0;
 }
 .facebook:hover {
-	background-position:0 -43px;
+	background-position: 0 -43px;
 }
 .twitter {
 	background:url(../img/social_btns.png) no-repeat -67px 0;
 }
 .twitter:hover {
-	background-position:-67px -43px;
+	background-position: -67px -43px;
 }
 .google {
 	background:url(../img/social_btns.png) no-repeat -133px 0;
 }
 .google:hover {
-	background-position:-133px -43px;
+	background-position: -133px -43px;
 }
 .colorado-ebn {
 	background:url(../img/colorado_ebn.png) no-repeat;
@@ -233,7 +234,6 @@ footer a {
 	width: 33%;
 	min-height: 400px;
 	position:relative;
-
 	-o-background-size: 100% 100%;
 	-ms-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
@@ -276,9 +276,11 @@ footer a {
 	line-height:1.4em;
 }
 .banner p {
-	font-size:14px;
+	font-size:15px;
 	font-family: 'bpreplayregular';
-	margin-bottom:10px;
+	line-height:1.4em;
+	margin: 0 auto 10px;
+	width: 80%;
 }
 .banner strong {
 	font-family: 'bpreplaybold';
@@ -303,20 +305,15 @@ footer a {
 .banner .dots li {
 	display: inline-block;
 	zoom: 1;
-
 	width: 10px;
 	height: 10px;
 	line-height: 10px;
 	margin: 0 4px;
-
 	text-indent: -999em;
-
 	border: 2px solid #fff;
 	border-radius: 6px;
-
 	cursor: pointer;
 	opacity: .4;
-
 	-webkit-transition: background .5s, opacity .5s;
 	-moz-transition: background .5s, opacity .5s;
 	transition: background .5s, opacity .5s;
@@ -356,7 +353,7 @@ footer a {
 	right:10px;
 	background-position:-31px 0;
 }
-.banner.mobile {
+.banner.standard {
 	display:none;
 }
 .banner.mobile strong {
@@ -366,7 +363,6 @@ footer a {
 	display: block;
 	width: 100%;
 	position:relative;
-
 	-o-background-size: 100% 100%;
 	-ms-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
@@ -400,37 +396,31 @@ footer a {
 	top:50%;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px), (max-width: 900px) {
+@media screen and (min-width: 768px) {
 	header {
-		margin-top:146px;
+		padding: 50px 15px;
+		margin-top: 200px;
 	}
 	header img {
-		width: 159px;
-        height: 155px;
-		margin-left: -79px;
-		top:12px;
+        margin-left: -127px;
+		top: 35px;
+		width: auto;
     }
-	header h1 {
-		font-size:17px;
-		letter-spacing:0.1em;
-	}
 	.banner.mobile {
-		display:block;
+		display: none;
 	}
 	.banner.standard {
-		display:none;
-	}
-	.banner ul li {
-		height: auto;
+		display: block;
 	}
 	.banner p {
-		font-size: 15px;
-		width: 80%;
-		margin: 0 auto 10px;
-		line-height:1.4em;
+		font-size:14px;
+		margin-bottom:10px;
+		width: auto;
 	}
-	.sign-up h1 {
-		font-size:24px;
+	.details .details-block {
+		float: left;
+		margin: 0 1.66666667% 30px;
+	    width: 30%;
 	}
 	footer {
 		line-height:1.7em;
